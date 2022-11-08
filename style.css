@@ -11,8 +11,9 @@ body {
     box-sizing: inherit;
   }
 img{
-    height: 60vh;
-    width: auto;
+    height: auto;
+    width: 100%;
+    display: flex;
 }
 div{
     background-color: antiquewhite;
