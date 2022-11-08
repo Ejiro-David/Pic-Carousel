@@ -19,7 +19,5 @@ function pickSrc(x){
 function slide(){
     console.log('pic should slide')
     let myImg = document.getElementById("img");
-
-
 }
 window.addEventListener('click', slide)
