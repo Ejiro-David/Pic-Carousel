@@ -8,4 +8,18 @@ const imgData = {
     
 }
 
+function pickSrc(x){
+    if(x === 5){
+        return 0
+    }else{
+        return x + 1
+    }
+}
 
+function slide(){
+    console.log('pic should slide')
+    let myImg = document.getElementById("img");
+
+
+}
+window.addEventListener('click', slide)
