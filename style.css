@@ -1,26 +1,42 @@
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-  }
-
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-img{
-    height: auto;
-    width: 90%;
-    /* flex: 0 0 auto; */
-  }
-  div{
-    overflow: hidden;
+  margin: 0;
   display: flex;
-justify-content: center;
-align-items: center;
-    background-color: antiquewhite;
-    width: 70vw;
-    height: 80%;
+  flex-direction: column;
+  place-items: center;
+  position: relative;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+img {
+  height: auto;
+  width: 90%;
+  /* flex: 0 0 auto; */
+}
+div {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 70vw;
+  height: 80%;
+}
+.button{
+  width: 70px;
+  height: auto;
+  position: absolute;
+}
+
+#left-arrow{
+  left: 2px;
+  top: 50%;
+}
+
+#right-arrow{
+  right: 2px;
+  top: 50%;
 }
