@@ -22,8 +22,8 @@ div {
   justify-content: center;
   align-items: center;
   background-color: antiquewhite;
-  width: 70vw;
-  height: 80%;
+  width: 90vw;
+  height: 90%;
 }
 .button{
   width: 70px;
@@ -40,3 +40,5 @@ div {
   right: 2px;
   top: 50%;
 }
+
+

@@ -14,7 +14,6 @@ function ack(){
 
 
 
-
 const imgSrc = [
   "./images/hacksultan.jpg",
   "./images/myblogsc.png",
@@ -42,9 +41,12 @@ const setSrc = (ind) => {
     myImg.setAttribute('src', imgSrc[ind])
     myImg.setAttribute('alt', imgAlt[ind])
 }
+
+
 function swipe(event){
     console.log(event.target.id)
     if(event.target.id === 'lr'){
+        console.log(x)
         if(x > 0){
             x--
         }else{
@@ -52,14 +54,15 @@ function swipe(event){
         }
         setSrc(x)
     }else{
-        if(x < 6){
+        console.log(x)
+        if(x < 5){
             x++
         }else{
             x = 0
         }
         setSrc(x)
     }
-
-
 }
+
+
 
