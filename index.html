@@ -13,12 +13,16 @@
 
 <body>
     <h1>Pictures be Toosie Sliding fr</h1>
-    <img class="button" id="left-arrow" src="./images/left-arrow.png">
-    <img class="button" id="right-arrow" src="./images/right-arrow.png">
+    <img class="button" id="lr" src="./images/left-arrow.png">
+    <img class="button" id="rr" src="./images/right-arrow.png">
     <div>
         <img id="img" src="./images/antics.jpeg" />
     </div>
 
 </body>
-
+    <script type="text/javascript">
+        document.querySelectorAll(".button").forEach(x => {
+            x.addEventListener("click", swipe)
+        })
+    </script>
 </html>

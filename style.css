@@ -31,12 +31,12 @@ div {
   position: absolute;
 }
 
-#left-arrow{
+#lr{
   left: 2px;
   top: 50%;
 }
 
-#right-arrow{
+#rr{
   right: 2px;
   top: 50%;
 }
