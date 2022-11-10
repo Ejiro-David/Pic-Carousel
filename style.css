@@ -12,10 +12,14 @@ body {
   }
 img{
     height: auto;
-    width: 100%;
-    display: flex;
-}
-div{
+    width: 90%;
+    /* flex: 0 0 auto; */
+  }
+  div{
+    overflow: hidden;
+  display: flex;
+justify-content: center;
+align-items: center;
     background-color: antiquewhite;
     width: 70vw;
     height: 80%;

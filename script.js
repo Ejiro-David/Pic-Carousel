@@ -8,6 +8,7 @@ const imgSrc = [
     "./images/seths.jpeg",
     "./images/snailmeme.jpeg",
     "./images/yinyang.webp",
+    "./images/putinspittin.jpeg"
 ];
 const imgAlt = [
     "hack sultan on the windows xp wallpapper",
@@ -16,6 +17,7 @@ const imgAlt = [
     "screenshot from Seth Godin's Blog",
     "meme",
     "Yin Yang",
+    "putin speaks some hard truths"
 ];
 
 const imgData = {};
@@ -32,7 +34,7 @@ function slide() {
     let myImg = document.getElementById("img");
     console.log("click acknowledged");
 
-    myImg.setAttribute('src', imgSrc[ x >= 5 ? x = 0 : x++], console.log('src set'));
+    myImg.setAttribute('src', imgSrc[ x >= 7 ? x = 0 : x++], console.log('src set'));
     
 }
 window.addEventListener("click", slide);
